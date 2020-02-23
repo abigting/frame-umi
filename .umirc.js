@@ -2,6 +2,7 @@
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
+  theme:'./theme.js',
   routes: [
     {
       path: '/',
@@ -19,7 +20,6 @@ export default {
       dynamicImport: false,
       title: 'frame-umi',
       dll: false,
-      
       routes: {
         exclude: [
           /models\//,
